@@ -1,0 +1,13 @@
+[submodule "quickstart/hugo-theme-cleanwhite"]
+	path = quickstart/hugo-theme-cleanwhite
+	url = https://github.com/zhaohuabing/hugo-theme-cleanwhite
+[submodule "quickstart/themes/ananke"]
+	path = quickstart/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke
+[submodule "quickstart/story"]
+	path = quickstart/story
+	url = https://github.com/xaprb/story.git
+[submodule "quickstart/themes/mini"]
+	path = quickstart/themes/mini
+	url = https://github.com/nodejh/hugo-theme-mini
+	branch = master
