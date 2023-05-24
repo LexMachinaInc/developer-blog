@@ -13,7 +13,7 @@ This release now includes state court data. In order to create endpoints and sch
 
 In order to access the GA version of the API, you of course need an application in the developer portal. If you have existing ones that you have been using with beta you can continue to use the same credentials. However, you will need to activate this API as accessible for this app and credentials. Underneath the Services section of your application information, there will now be a line for the "Lex Machina API". If you activate that service, your credentials will now grant access to GA.
 
-![You must activate the GA API for your credentials if you have not already done it ](activate-ga-api.png)
+![You must activate the GA API for your credentials if you have not already done it ](images/activate-ga-api.png)
 
 If you have not logged in to the Lex Machina developer portal since April 12th, our infrastructure has changed. You will need to register to create a new account and create new applications and credentials to use either beta or the GA versions of the API. While this disruption is unfortunate, we have found in the last month that the new system is superior on basically every aspect. If you need assistance with accounts, please feel free to email dslusher@lexmachina.com.
 
