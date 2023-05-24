@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://lexmachinainc.github.io/developer-blog/'
 languageCode = 'en-us'
 title = 'Lex Machina Developer Blog'
 theme = 'mini'
