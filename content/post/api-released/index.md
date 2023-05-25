@@ -2,9 +2,10 @@
 title: "API Released to Production"
 date: 2023-05-22T10:21:14-04:00
 draft: false
+categories:
+    - News
 tags: 
-    - api
-    - production
+    - Releases
 ---
 
 After long alpha and beta periods, much development and customer input the day has arrived. The Lex Machina API is in General Availability release!
