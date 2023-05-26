@@ -2,6 +2,8 @@
 title: "API Released to Production"
 date: 2023-05-22T10:21:14-04:00
 draft: false
+description: "The Lex Machina API is released for general availability, including state court data"
+lead: "The Lex Machina API is released for general availability, including state court data"
 categories:
     - News
 tags: 
