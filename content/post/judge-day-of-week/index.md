@@ -1,7 +1,7 @@
 ---
 title: "Judgments by Day of the Week"
 date: 2023-05-26T10:00:00-04:00
-draft: true
+draft: false
 description: "An example script for judgments by day of the week, inspired by a conversation at CLOC"
 lead: "An example script for judgments by day of the week, inspired by a conversation at CLOC"
 
@@ -38,7 +38,7 @@ In the loop, for each case the full information is fetched from the API then the
         console.log('Summary judgment on %s which is %s  %s:%s', sjDate, dayOfWeek, resolution.summary, resolution.specific);
 ```
 
-This snippet creates an arry of the events that are the summary judgement itself via the JavaScript .filter() function.There will only be one, which is why it is dereferenced as [0]. [MomentJS](https://momentjs.com/) is then used to convert the date (found in the .occurred field) to the actual day of the week. Some other code (not shown here) is used to create an associative array to maintain the count of various decisions on days of the week. Because summary judgments can be on some but not all aspects of the case, some of these final resolutions include trial outcomes. The day of the week listed is the day the summary judgment was issued which may not have concluded all aspects of the case.
+This snippet creates an array of the events that are the summary judgment itself via the JavaScript .filter() function. There will only be one, which is why it is dereferenced as [0]. [MomentJS](https://momentjs.com/) is then used to convert the date (found in the .occurred field) to the actual day of the week. Some other code (not shown here) is used to create an associative array to maintain the count of various decisions on days of the week. Because summary judgments can be on some but not all aspects of the case, some of these final resolutions include trial outcomes. The day of the week listed is the day the summary judgment was issued which may not have concluded all aspects of the case.
 
 The final result is at the bottom of this post, run for federal judge Phillip Brimmer. Why him? Why not? While this example is a bit of a lark, it does represent the kind of analysis that can be performed with the Lex Machina data. The results don't make a statement of cause and effect, just the statistics of the outcomes. Perhaps a certain court only hears motions of a type on specific days of the week. Still, if you want to determine the probability of an outcome based on past data, you can always do it. This script is 82 lines all in, of which 30 are setup and getting the judge_id from the input. It does not take a lot of effort or code to do a data analysis with Lex Machina data - just an idea and a little time to code and run the script.
 
