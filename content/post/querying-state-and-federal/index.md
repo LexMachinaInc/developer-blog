@@ -1,17 +1,17 @@
 ---
 title: "How Queries Differ between State and Federal"
-date: 2023-06-07T10:21:14-04:00
+date: 2023-06-21T10:21:14-04:00
 description: "Federal district and state queries are similar in structure but not identical. Here is a discussion of the differences."
 lead: "Federal district and state queries are similar in structure but not identical. Here is a discussion of the differences."
-draft: true
+draft: false
 categories:
     - Technical
 tags: 
     - Queries
     - State Data
     - Federal Data
+toc: false
 ---
-
 As of general availability, data from both federal district and state cases can be queried via the Lex Machina API. There are full articles on the developer portal about each type of query. Here is the one for [federal district queries](https://developer.lexmachina.com/default/docs/query_usage_portal_post) and one for [state queries](https://developer.lexmachina.com/default/docs/state_query_usage).
 
 For this blog post, I will provide a very quick high level summary of the differences. For details in using either query, see the above articles.
@@ -30,7 +30,7 @@ In the federal district query, you can include or exclude courts in an array suc
 }
 ```
 
-In state, this becomes a mandatory field that defines the state being queried and optionally includes or excludes courts within that state. It does not make sense to use excludes if also using includes, because once including any court any other court not referenced is de facto excluded
+In state, this becomes a mandatory field that defines the state being queried and optionally includes or excludes courts within that state. It does not make sense to use excludes if also using includes, because once including any court any other court not referenced is de facto excluded.
 
 ```json
 {
