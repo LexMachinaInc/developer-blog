@@ -1,0 +1,20 @@
+{{- if (eq (.Site.Params.disableComments | default false) false) -}}
+    {{- if (eq (.Params.disableComments | default false) false) -}}
+        <script src="https://giscus.app/client.js"
+            data-repo="LexMachinaInc/developer-blog"
+            data-repo-id="R_kgDOJK3Qow"
+            data-category="Announcements"
+            data-category-id="DIC_kwDOJK3Qo84CXbgD"
+            data-mapping="pathname"
+            data-strict="1"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="{{ .Site.Params.giscusTheme }}"
+            data-lang="en"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async>
+        </script>
+    {{- end -}}
+{{- end -}}
