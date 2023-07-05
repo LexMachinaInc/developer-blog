@@ -1,7 +1,7 @@
 ---
 title: "Oregon Court Data in API"
 date: 2023-07-05T10:00:00-04:00
-draft: true
+draft: false
 description: "Oregon state court data is now available in the Lex Machina API"
 lead: "Oregon state court data is now available in the Lex Machina API"
 categories:
