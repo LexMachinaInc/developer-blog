@@ -1,6 +1,7 @@
 ---
 title: "How Queries Differ between State and Federal"
 date: 2023-06-21T10:21:14-04:00
+authors: [Dave Slusher]
 description: "Federal district and state queries are similar in structure but not identical. Here is a discussion of the differences."
 lead: "Federal district and state queries are similar in structure but not identical. Here is a discussion of the differences."
 draft: false

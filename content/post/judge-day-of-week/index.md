@@ -4,7 +4,7 @@ date: 2023-05-26T10:00:00-04:00
 draft: false
 description: "An example script for judgments by day of the week, inspired by a conversation at CLOC"
 lead: "An example script for judgments by day of the week, inspired by a conversation at CLOC"
-
+authors: [Dave Slusher]
 categories:
     - Examples
 tags: 

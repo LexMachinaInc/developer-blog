@@ -12,6 +12,7 @@ tags:
     - JavaScript
     - Node
 toc: false
+authors: [Dave Slusher]
 ---
 As of now, the Lex Machina API has client libraries published for both Node and Python. In this article, I will walk through the installation, configuration and use of both.
 
