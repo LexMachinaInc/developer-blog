@@ -4,12 +4,6 @@ title = 'Lex Machina Developer Blog'
 theme = 'mainroad'
 
 
-
-[Author] # Used in authorbox
-  name = "Dave Slusher"
-  avatar = "img/dave-slusher.jpg"
-  bio = "Dave Slusher is the developer advocate for the Lex Machina API. Making your integrations successful is his job."
-
 [Params]
   description = "Information about the Lex Machina API" # Site description. Used in meta description
   copyright = "Lex Machina Inc" # Footer copyright holder, otherwise will use site title
@@ -62,9 +56,11 @@ theme = 'mainroad'
     name = "sitesearch"
     pre = ""
 
-
-
-
 [outputs]
   home = ['HTML', 'RSS']
   page = ['HTML']
+
+[taxonomies]
+author = "authors"
+tag = "tags"
+category = "categories"
