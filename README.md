@@ -50,3 +50,17 @@ The example post will look like this when clicked:
 This example has an author without a matching entry in /content/authors which is why the blank photo. If matching data is found, multiple authors will be filled out with bio and headshots on the posts.
 
 As long as ```draft: true``` is set in the Markdown frontmatter of a post, there is no risk in it being made public. Feel free to commit drafts to the content directory to make posts, and then let the API team know when you want it published.
+
+## Running the Developer Blog Build Locally
+
+- In order to build and serve the developer blog locally, first you must [install Hugo](https://gohugo.io/installation/). There are prebuilt binaries for MacOS, Linux and Windows as well as Homebrew packages and others.
+
+- Clone this repository and from a command line cd to the root directory.
+
+- Run the command
+
+    ```  hugo serve -D ```
+
+    The "-D" flag turns on building of posts and pages with ```draft: true``` so it is useful to do a preview prior to publication. The "-F" does the same thing but for future posts.
+
+- When the process runs, the address http://localhost:1313 will now be the base URL of the developer blog. Other than showing draft posts it should look otherwise the same as production.
