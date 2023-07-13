@@ -51,7 +51,7 @@ This example has an author without a matching entry in /content/authors which is
 
 As long as ```draft: true``` is set in the Markdown frontmatter of a post, there is no risk in it being made public. Feel free to commit drafts to the content directory to make posts, and then let the API team know when you want it published.
 
-## Running the Developer Blog Build Locally
+## Building and Serving the Blog Locally
 
 - In order to build and serve the developer blog locally, first you must [install Hugo](https://gohugo.io/installation/). There are prebuilt binaries for MacOS, Linux and Windows as well as Homebrew packages and others.
 
