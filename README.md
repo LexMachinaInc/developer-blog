@@ -10,6 +10,10 @@ The directory that contains the posts  is /content/post/ inside this repository.
 
 Inside this directory, create a file named "index.md". If you have images to add to the post, you can either put them in a images directory or loose in the same directory as the Markdown file. 
 
+Here is what the URL looks like for the above subdirectory.
+
+![Address bar of browser showing /post/api-released/ address](static/images/titlebar.png)
+
 Inside the index.md, create the template of the post. You can cut-and-paste this example and change what you need.
 
 ```
