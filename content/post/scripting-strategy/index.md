@@ -1,8 +1,8 @@
 ---
 title: The Strategy of Scripting with the Lex Machina API
-date: 2023-07-19T10:00:00-04:00
+date: 2023-07-19T20:00:00-04:00
 authors: [Dave Slusher]
-draft: true
+draft: false
 description: Writing scripts with the Lex Machina API have a recognizable design pattern
 lead: Writing scripts with the Lex Machina API have a recognizable design pattern
 categories:
