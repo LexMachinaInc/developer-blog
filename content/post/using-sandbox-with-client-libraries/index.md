@@ -14,7 +14,7 @@ tags:
     - Sandbox
 toc: false
 ---
-# Using the Sandbox API with Lex Machina Client Libraries
+
 Lex Machina now not only has an API to allow automated access to our data but we also have a [Sandbox API](/post/sandbox-available) that allows prospective customers to test out the system with a subset of real data. For those potential users who are testing out the system to see if it meets needs, you can absolutely use the client libraries we have - python and node/JavaScript - to access the Sandbox. This article will walk through the steps.
 
 In both clients, these steps assume that you have created an OAuth id/key and secret, and for that credential you have activated the sandbox as one of the services. You can have multiple services active on the same credential if you have access to them. If you fail to activate then you will get a "You cannot consume this service" error.
