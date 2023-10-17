@@ -1,8 +1,8 @@
 ---
 title: "Appeals API Released to Production"
 authors: [Dave Slusher]
-date: 2023-10-16T10:00:00-04:00
-draft: true
+date: 2023-10-17T08:00:00-04:00
+draft: false
 description: "The Lex Machina API now has appeals court data"
 lead: "The Lex Machina API now has appeals court data"
 categories:
